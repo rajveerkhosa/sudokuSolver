@@ -109,8 +109,8 @@ The workings of the Sudoku Validator are quite simple, to be honest. Here's a si
 * I was thinking we could write a "backend" which could then be called by various "interface frontends". The backend is written in C++ and the frontends could be shell or maybe an API or something.
 
 ## Acknowledgements
-Love Babber - Recursion and Backtracking
-    https://www.youtube.com/watch?v=SJ_pXT-L5IE&ab_channel=LoveBabbar
+* Love Babber - Recursion and Backtracking
+      * https://www.youtube.com/watch?v=SJ_pXT-L5IE&ab_channel=LoveBabbar
 
 
 ## Tools
