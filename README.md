@@ -1,5 +1,4 @@
-# Introduction
-These are a suite of C++ programs which deal with Sudoku Puzzles. The name might be misleading, yes, but these programs don't just solve Sudoku puzzles, they also achieve other objectives such as Sudoku Puzzle Validation and Sudoku Puzzle Generation (Under development).
+These are a suite of C++ programs which deal with Sudoku Puzzles. The names might be misleading, yes, but these programs don't just solve Sudoku puzzles, they also achieve other objectives such as Sudoku Puzzle Validation and Sudoku Puzzle Generation (Under development).
 
 ## Contents
 * [Sudoku Solver](#sudoku-solver)
@@ -14,11 +13,10 @@ These are a suite of C++ programs which deal with Sudoku Puzzles. The name might
 # Sudoku-Solver
 This is a program which solves 9x9 Sudoku puzzles. **Written completely in C++** and **built wholly from scratch**, this program reads input either from a user or from a file containing the Sudoku values and solves the puzzle. It employs concepts such as backtracking and recursion.
 
-### Getting Started
-* Simply download the ```sudoku-solver.cpp``` file found in the ```Sudoku-Solver/``` directory. Run it using any standard C++ compiler. In case of any errors or compatibility issues, submit an issue in this git.
+* To Run: download '''sudoku-solver.cpp''' from the '''Soduku-Solver/''' directory and compile it with any C++ compiler. 
 * Once downloaded, compiled and run; the program will require the user to input the Sudoku puzzle into it. There are two ways to do this.
     * The user can either input the values manually one-by-one when the program is running.
-    * The user can write all the values into a file, seperated by whitespaces. The file can have any name or extension. When the program is running, the user will be prompted to simply enter the name of the file (with extension). **Below** is an example of how the contents of such a file might look. Look at the ```sample.txt``` files in the same directory for more examples.
+    * The user can write all the values into a file, seperated by whitespaces. The file can have any name or extension. When the program is running, the user will be prompted to simply enter the name of the file (with extension). **Below** is an example of how the contents of such a file might look.
     
         ```
         0 0 0  0 0 0  6 8 0
@@ -34,8 +32,7 @@ This is a program which solves 9x9 Sudoku puzzles. **Written completely in C++**
         0 2 8  0 0 0  0 0 0
         ```
 
-* Once solved, the Sudoku puzzles shall be displayed like this.
-    ```
+* Once solved, the Sudoku puzzles will be displayed like this.
     ++=====================================++
     || 1   7   2 || 5   4   9 || 6   8   3 ||
     ++-----------++-----------++-----------++
@@ -71,12 +68,10 @@ This particular algorithm employs the use of backtracking, one of the more commo
 
 # Sudoku Validator
 This is a program which validates solutions for 9x9 Sudoku puzzles. **Written completely in C++** and **built wholly from scratch**, this program takes in input from the user or from a file containing the values. It then validates the puzzle and then displays whether it is a valid solution or not.
-
-### Getting Started
-* Simply download the ```sudoku-validator.cpp``` file found in the ```Sudoku-Validator``` directory. Run it using any standard C++ compiler. In case of any errors or compatibility issues, submit an issue in this git.
+* To Run: download '''sudoku-validator.cpp''' from the '''Soduku-Validator/''' directory and compile it with any C++ compiler. 
 * Once downloaded, compiled and run; the program will require the user to input the Sudoku puzzle into it. There are two ways to do this.
     * The user can either input the values manually one-by-one when the program is running.
-    * The user can write all the values into a file, seperated by whitespaces. The file can have any name or extension. When the program is running, the user will be prompted to simply enter the name of the file (with extension). **Below** is an example of how the contents of such a file might look. Look at the ```sample.txt``` files in the same directory for more examples.
+    * The user can write all the values into a file, seperated by whitespaces. The file can have any name or extension. When the program is running, the user will be prompted to simply enter the name of the file (with extension). **Below** is an example of how the contents of such a file might look.
     
         ```
         8 4 6  9 3 7  1 5 2
