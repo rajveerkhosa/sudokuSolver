@@ -110,7 +110,7 @@ The workings of the Sudoku Validator are quite simple, to be honest. Here's a si
 
 ## Acknowledgements
 * Love Babber - Recursion and Backtracking
-      * https://www.youtube.com/watch?v=SJ_pXT-L5IE&ab_channel=LoveBabbar
+* https://www.youtube.com/watch?v=SJ_pXT-L5IE&ab_channel=LoveBabbar
 
 
 ## Tools
