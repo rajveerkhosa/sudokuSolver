@@ -2,17 +2,12 @@ These are a suite of C++ programs which deal with Sudoku Puzzles. The names migh
 
 ## Contents
 * [Sudoku Solver](#sudoku-solver)
-    * [Getting Started (Usage)](#getting-started)
-    * [How It Works](#how-it-works)
 * [Sudoku Validator](#sudoku-validator)
-    * [Getting Started (Usage)](#getting-started-1)
-    * [How It Works](#how-it-works-1)
 * [Acknowledgements](#acknowledgements)
 * [Tools](#tools)
 
 # Sudoku-Solver
 This is a program which solves 9x9 Sudoku puzzles. **Written completely in C++** and **built wholly from scratch**, this program reads input either from a user or from a file containing the Sudoku values and solves the puzzle. It employs concepts such as backtracking and recursion.
-
 * To Run: download '''sudoku-solver.cpp''' from the '''Soduku-Solver/''' directory and compile it with any C++ compiler. 
 * Once downloaded, compiled and run; the program will require the user to input the Sudoku puzzle into it. There are two ways to do this.
     * The user can either input the values manually one-by-one when the program is running.
@@ -87,7 +82,6 @@ This is a program which validates solutions for 9x9 Sudoku puzzles. **Written co
         5 9 4  3 6 2  7 1 8
         ```
 
-
 ### How It Works
 The workings of the Sudoku Validator are quite simple, to be honest. Here's a simple algorithm explaining them all.
 
@@ -108,3 +102,4 @@ The workings of the Sudoku Validator are quite simple, to be honest. Here's a si
 ## Tools
 * Vim Editor
 * VSCode
+* Data Structures Resources via YouTube
